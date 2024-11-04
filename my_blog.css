@@ -1,0 +1,53 @@
+.header{
+    
+    text-align: center;
+    align-content: center;
+}
+.header .nav_header li{
+    list-style: none;
+    display: inline-block;
+    padding:3%;
+}
+.image{
+    text-align: center;
+}
+.contenedor_1{
+    margin: 15px;
+    border: 2px solid;
+    text-align: center;
+    
+}
+.contenedor_2{
+    margin: 15px;
+    border: 2px solid;
+    text-align: center; 
+}
+
+.categorias{
+    text-align: center;
+    position: relative;
+    width: 190px;
+    height: 311px;
+    border: 2px solid;
+    padding-inline: 10px;
+    padding: 15px; 
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    float: left;
+}
+.articulo_g{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    width: 500px;
+    float: left;
+}
+footer{
+    text-align: center;
+    clear: both;
+}
+
+
+
