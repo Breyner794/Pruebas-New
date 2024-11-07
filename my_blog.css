@@ -1,9 +1,10 @@
 .header{
-    
+    font-size: 40px;
     text-align: center;
     align-content: center;
 }
 .header .nav_header li{
+    font-size: 20px;
     list-style: none;
     display: inline-block;
     padding:3%;
@@ -25,29 +26,47 @@
 
 .categorias{
     text-align: center;
-    position: relative;
+    position:relative;
     width: 190px;
     height: 311px;
     border: 2px solid;
-    padding-inline: 10px;
+    /* padding-inline: 10px; */
     padding: 15px; 
     margin: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     float: left;
 }
 .articulo_g{
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
+    /* flex-direction:column;
+    justify-content: center; */
     width: 500px;
     float: left;
+    border: 1px solid;
+    
 }
 footer{
+    padding: 20px;
+    background-color: rgba(189, 189, 189, 0.771);
+    margin: 20px;
     text-align: center;
     clear: both;
 }
+aside{
+    border: 2px solid;
+}
+.imagen{
+    border: 2px solid;
+    
+}
+.contenedor_general{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
 
 
 
